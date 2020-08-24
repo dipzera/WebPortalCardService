@@ -1,0 +1,12 @@
+/* Sidebar nav link */
+.menu-list__link.active {
+  background: $active-sidebar;
+}
+
+
+/* Sidebar icon */
+.sidebar-icon {
+  width: 25px !important;
+  height: auto !important;
+  margin-right: 10px;
+}

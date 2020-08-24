@@ -1,0 +1,330 @@
+.filter {
+  padding: 35px 10px;
+  position: relative;
+
+  @media screen and (max-width: $mobile) {
+    padding: 35px 0 10px;
+    margin: 0 -10px;
+  }
+
+  &__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: 1560px) {
+      flex-direction: column;
+    }
+
+    //@media screen and (max-width: 1524px) {
+    //  flex-direction: column;
+    //  justify-content: flex-start;
+    //}
+  }
+}
+
+.filter-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 1560px) {
+    padding-bottom: 20px;
+  }
+
+  //&__img {
+  //  width: 20px;
+  //  height: 20px;
+  //  margin-right: 10px;
+  //}
+  //
+  //&__text {
+  //  color: $gray;
+  //  font-size: 14px;
+  //  cursor: default;
+  //}
+}
+
+.filter-item__status {
+  border-radius: 10px;
+
+  @media screen and (max-width: $mobile) {
+    border: 0;
+    box-shadow: none;
+  }
+
+  ul {
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: $mobile) {
+      background: none;
+    }
+    li {
+      padding: 10px 25px;
+      list-style: none;
+      cursor: pointer;
+
+      @media screen and (max-width: $mobile) {
+        border-radius: 15px;
+        background: white;
+        margin-bottom: 10px;
+      }
+      @media screen and (max-width: $mobile) {
+        &:not(:last-child) {
+          margin-right: 20px;
+        }
+      }
+
+      &:first-child {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+
+        @media screen and (max-width: 1560px) {
+          border-top-left-radius: 15px;
+          border-bottom-left-radius: 15px;
+        }
+      }
+
+      &:last-child {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        @media screen and (max-width: 1560px) {
+          border-top-right-radius: 15px;
+          border-bottom-right-radius: 15px;
+        }
+      }
+
+      &.active {
+        background: $black;
+        a {
+          color: white;
+        }
+      }
+      &:hover {
+        background: $black;
+        a {
+          color: white !important;
+        }
+      }
+
+      a {
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+.filter-item__time {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  max-width: 40%;
+  transition: max-width 0.2s ease-in;
+
+  @media screen and (max-width: 1560px) {
+    flex-direction: column;
+    max-width: 100%;
+    transition: none;
+    box-shadow: none;
+  }
+
+  &.active {
+    max-width: 100%;
+
+    @media screen and (max-width: 1560px) {
+      .filter-item__date {
+        display: flex;
+      }
+
+      .balance-item__btn.filter-item__time-link {
+        display: flex;
+      }
+    }
+  }
+  ul {
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    @media screen and (max-width: 1560px) {
+      background: none;
+    }
+
+    li {
+      padding: 10px 23px;
+      list-style: none;
+      cursor: pointer;
+
+      @media screen and (max-width: 1560px) {
+        background: white;
+      }
+
+      &:first-child {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+
+      &:last-child {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+      a {
+        font-size: 12px;
+        font-weight: 400;
+      }
+
+      &.active {
+        background: $light-green;
+
+        a {
+          color: white;
+        }
+      }
+      &:hover {
+        background: $light-green;
+        a {
+          color: white !important;
+        }
+      }
+      a {
+        text-transform: lowercase;
+      }
+    }
+  }
+
+  &-text {
+  }
+}
+
+.filter-item__date {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+
+  @media screen and (max-width: 1560px) {
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 3px;
+
+    z-index: 1000;
+    overflow: visible;
+    margin-top: 20px;
+    display: none;
+    background: white;
+    padding: 30px 10px 8px;
+  }
+
+  @media screen and (max-width: $mobile-sm) {
+    padding: 30px 0 8px;
+  }
+
+  label {
+    margin: 0 5px 0 5px;
+
+    @media screen and (max-width: 1560px) {
+      display: none;
+    }
+  }
+
+  input[type="date"] {
+    &:first-child {
+      margin-left: 15px;
+    }
+    height: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    padding: 14px;
+    min-width: 160px;
+    border-radius: 5px;
+    border: 1px solid $gray;
+    position: relative;
+
+    @media screen and (max-width: $mobile-sm) {
+      font-size: 10px;
+      min-width: 142px;
+    }
+
+    @media screen and (max-width: 1560px) {
+      border-radius: 0;
+      border: none;
+      background: transparent;
+      overflow: visible;
+      border-bottom: 1px solid #ccc;
+      border-radius: 5px;
+
+      &:first-child {
+        margin-left: 0;
+        &:before {
+          content: "From";
+          position: absolute;
+          font-size: inherit;
+          color: $gray;
+          top: -90%;
+          left: 0;
+          z-index: 1;
+        }
+      }
+    }
+
+    @media screen and (max-width: $mobile-sm) {
+      font-size: 12px;
+    }
+  }
+  button {
+    border: 0;
+    background: none;
+    margin: 0 15px -5px 10px;
+
+    outline: none;
+    transition: transform 0.3s linear;
+
+    &:hover {
+      cursor: pointer;
+      transform: translateX(5px);
+    }
+
+    @media screen and (max-width: 1560px) {
+      display: none;
+    }
+  }
+}
+
+.balance-item__btn.filter-item__time-link {
+  display: none;
+  background: $light-green;
+  max-width: 150px;
+  margin: 20px auto 0;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    transform: scale(1);
+  }
+
+  @media screen and (max-width: $tablet) {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1560px) {
+  #end {
+    &:before {
+      content: "To";
+      position: absolute;
+      font-size: inherit;
+      color: $gray;
+      top: -90%;
+      left: 0;
+      z-index: 1;
+    }
+  }
+}

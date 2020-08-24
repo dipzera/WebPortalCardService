@@ -1,0 +1,13 @@
+/* SELECT GROUP */
+.form-group__select {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-group__select-item {
+  width: 50%;
+
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
+}
