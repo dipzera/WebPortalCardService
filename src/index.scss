@@ -1,13 +1,75 @@
+/* COLORS */
+@import "assets/css/colors";
+
+/* MEDIA */
+@import "assets/css/media";
+
+/* ERROR */
+@import "assets/css/error";
+
+/* THEME */
+@import "assets/css/bootstrap.min.css";
+@import "assets/css/slidebars.min.css";
+@import "assets/css/icons.css";
+@import "assets/css/menu.css";
+@import "assets/css/style.css";
+
+/* SIDEBAR */
+@import "components/Sidebar/sidebar";
+
+/* HEADER */
+@import "components/Header/header";
+
+/* DASHBOARD_BALANCE */
+@import "components/Dashboard/balance.scss";
+
+
+/* FORM */
+@import "assets/css/form";
+
+/* ENTRY  */
+@import "assets/css/filter.scss";
+@import "assets/css/table_entry";
+
+/* SCROLL UP BUTTON */
+@import "assets/css/scrollToTop";
+
+
+
+/* ALERT */
+@import 'alert/alert';
+
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.main {
+  min-height: 95vh;
+  width: 85%;
+  margin-left: auto;
+  background: #eff1f2;
+
+  &-container {
+    padding: 0 15px;
+  }
+}
+
+ul {
+  padding: 0;
+  margin: 0;
 }

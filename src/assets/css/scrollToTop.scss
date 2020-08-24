@@ -12,7 +12,7 @@
   opacity: 0;
   transition: .2s;
   transform: translateY(25px);
-  background: rgba(89, 245, 188, .6);
+  background: rgba(46,97,242, .6);
 
   @media screen and (max-width: $mobile) {
     right: 25px;
@@ -32,7 +32,7 @@
   }
 
   &:hover {
-    background: rgba(89, 245, 188, 1);
+    background: rgba(46,97,242, 1);
   }
 
   &--active {

@@ -13,6 +13,23 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 15px;
+
+}
+
+.alert-message--error {
+  max-width: 370px;
+  margin: 0 auto 20px;
+  border: 1px solid $red;
+  background: $red;
+  color: white;
+  padding: .75rem 1.25rem;
+  border-radius: .25rem;
+  text-align: center;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+
 }
 
 .alert-message__input {
