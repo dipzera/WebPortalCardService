@@ -2,39 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a56f8d36-54be-4b4e-b353-0919081d9ff2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/alert/TextAlert.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/alert/TextAlert.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/alert/alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/alert/alert.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/_error.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/_error.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/scrollToTop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/scrollToTop.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/general/login.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/general/login.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dashboard/Balance.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard/Balance.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Settings/ChangePasswordForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Settings/ChangePasswordForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Settings/FileReader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Settings/FileReader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Settings/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Settings/Settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Settings/UpdateAPIKeyForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Settings/UpdateAPIKeyForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Settings/UpdateCompanyForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Settings/UpdateCompanyForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useScript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/AuthLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/PublicLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ErrorPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ErrorPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LoginPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/RecoveryPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/RecoveryPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/RegisterPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/RegisterPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ValidatePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ValidatePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/logoHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/logoHandler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,26 +27,26 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web-portal-sms-service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../admin_app_ts" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\MyDirectory\Code\htmlcssjs\projects\web-portal-edx-service4.0\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\MyDirectory\Code\htmlcssjs\projects\web-portal-card-service\src\util" />
-      <recent name="C:\MyDirectory\Code\htmlcssjs\projects\web-portal-card-service\src\server" />
-      <recent name="C:\MyDirectory\Code\htmlcssjs\projects\web-portal-card-service\src" />
-      <recent name="C:\MyDirectory\Code\htmlcssjs\projects\web-portal-edx-service4.0\src\components\Entry" />
-      <recent name="C:\MyDirectory\Code\htmlcssjs\projects\web-portal-edx-service4.0\src\components\Dashboard" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\MyDirectory\Code\htmlcssjs\projects\web-portal-card-service\src" />
       <recent name="C:\MyDirectory\Code\htmlcssjs\projects\web-portal-card-service\src\util" />
       <recent name="C:\MyDirectory\Code\htmlcssjs\projects\web-portal-edx-service4.0\src\components" />
       <recent name="C:\MyDirectory\Code\htmlcssjs\projects\web-portal-edx-service4.0\src\server" />
       <recent name="C:\MyDirectory\Code\htmlcssjs\projects\web-portal-edx-service4.0\src\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MyDirectory\Code\htmlcssjs\projects\web-portal-card-service\src\util" />
+      <recent name="C:\MyDirectory\Code\htmlcssjs\projects\web-portal-card-service\src\server" />
+      <recent name="C:\MyDirectory\Code\htmlcssjs\projects\web-portal-card-service\src" />
+      <recent name="C:\MyDirectory\Code\htmlcssjs\projects\web-portal-edx-service4.0\src\components\Entry" />
+      <recent name="C:\MyDirectory\Code\htmlcssjs\projects\web-portal-edx-service4.0\src\components\Dashboard" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -129,8 +98,18 @@
       <workItem from="1598020508088" duration="966000" />
       <workItem from="1598091915953" duration="794000" />
       <workItem from="1598257758686" duration="6622000" />
-      <workItem from="1598268039166" duration="1182000" />
+      <workItem from="1598268039166" duration="1416000" />
+      <workItem from="1598269804152" duration="2184000" />
+      <workItem from="1601536706026" duration="1417000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1598269364814</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598269364814</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,5 +127,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
